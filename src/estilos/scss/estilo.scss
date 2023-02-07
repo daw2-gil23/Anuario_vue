@@ -1,0 +1,41 @@
+//Esto es scss
+$secondary: #303030; 
+$success: rgb(222, 219, 219);
+$info: #333333; 
+
+.imagen{
+    width: 200px;
+    height: 50px;
+}
+
+.imagenLogo{
+    width: 100px;
+    height: 50px;
+    padding-right: 20px;
+}
+
+.imagen_card{
+    width: 200px;
+    height: 250px;
+}
+
+.imagen_cardProfesor{
+    width: 200px;
+    height: 280px;  
+}
+
+.espacioExpediente{
+    padding-bottom: 65px;
+}
+
+.imagenDetalle{
+    width: 100%;
+    height: 300px;     
+}
+
+*{
+    font-family: 'Open Sans', sans-serif;
+    color: $info;
+}
+
+@import "../scss_boostrap/bootstrap.scss";
